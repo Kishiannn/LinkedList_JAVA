@@ -7,11 +7,15 @@ public class PracticeJava {
         
         System.out.println("This is my favorite Manhwa Character\n");
         
-        
         list.push("Jin Mori-Jin");
         list.push("Sung Jin Woo");
         list.push("Yoo Gamin");
         list.push("Daniel Park");
+        list.push("Tanjiro");
+        
+        
+        list.pop();
+        //Tangiro is not a Manhwa Character It should be remove
         
         
         
