@@ -1,7 +1,4 @@
-package com.mycompany.practicejava;
-
 import java.util.LinkedList;
-import java.util.Scanner;
 
 public class PracticeJava {
     
@@ -10,11 +7,15 @@ public class PracticeJava {
         
         System.out.println("This is my favorite Manhwa Character\n");
         
-        
+        list.offer("Tanjiro");
         list.offer("Jin Mori-Jin");
         list.offer("Sung Jin Woo");
         list.offer("Yoo Gamin");
         list.offer("Daniel Park");
+        
+        
+        list.poll();
+        //Tangiro is not a Manhwa Character It should be remove
         
         
         
